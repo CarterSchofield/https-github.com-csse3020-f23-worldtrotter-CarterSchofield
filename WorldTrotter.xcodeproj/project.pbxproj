@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7950CF872A9EEF4600C234E1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7950CF862A9EEF4600C234E1 /* MapViewController.swift */; };
 		79E24D2C2A9D18FC0093ECC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E24D2B2A9D18FC0093ECC6 /* AppDelegate.swift */; };
 		79E24D2E2A9D18FC0093ECC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E24D2D2A9D18FC0093ECC6 /* SceneDelegate.swift */; };
-		79E24D302A9D18FC0093ECC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E24D2F2A9D18FC0093ECC6 /* ViewController.swift */; };
+		79E24D302A9D18FC0093ECC6 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E24D2F2A9D18FC0093ECC6 /* ConversionViewController.swift */; };
 		79E24D332A9D18FC0093ECC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E24D312A9D18FC0093ECC6 /* Main.storyboard */; };
 		79E24D352A9D19010093ECC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E24D342A9D19010093ECC6 /* Assets.xcassets */; };
 		79E24D382A9D19010093ECC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E24D362A9D19010093ECC6 /* LaunchScreen.storyboard */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7950CF862A9EEF4600C234E1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		79E24D282A9D18FC0093ECC6 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E24D2B2A9D18FC0093ECC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79E24D2D2A9D18FC0093ECC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79E24D2F2A9D18FC0093ECC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79E24D2F2A9D18FC0093ECC6 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		79E24D322A9D18FC0093ECC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79E24D342A9D19010093ECC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79E24D372A9D19010093ECC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,8 +103,9 @@
 			children = (
 				79E24D2B2A9D18FC0093ECC6 /* AppDelegate.swift */,
 				79E24D2D2A9D18FC0093ECC6 /* SceneDelegate.swift */,
-				79E24D2F2A9D18FC0093ECC6 /* ViewController.swift */,
+				79E24D2F2A9D18FC0093ECC6 /* ConversionViewController.swift */,
 				79E24D312A9D18FC0093ECC6 /* Main.storyboard */,
+				7950CF862A9EEF4600C234E1 /* MapViewController.swift */,
 				79E24D342A9D19010093ECC6 /* Assets.xcassets */,
 				79E24D362A9D19010093ECC6 /* LaunchScreen.storyboard */,
 				79E24D392A9D19010093ECC6 /* Info.plist */,
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79E24D302A9D18FC0093ECC6 /* ViewController.swift in Sources */,
+				79E24D302A9D18FC0093ECC6 /* ConversionViewController.swift in Sources */,
 				79E24D2C2A9D18FC0093ECC6 /* AppDelegate.swift in Sources */,
 				79E24D2E2A9D18FC0093ECC6 /* SceneDelegate.swift in Sources */,
+				7950CF872A9EEF4600C234E1 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
